@@ -1,0 +1,63 @@
+
+
+body{
+    background-color: #141414 ;
+}
+
+.container{
+    width: 90% !important;
+}
+
+.navbar-expand{
+    display: flex;
+    justify-content: space-between;
+}
+
+.icons{
+    color: white;
+    font-size: 25px;
+}
+
+.first-head{
+    color: white;
+}
+h1{
+    padding-top: 25px;
+    font-size: 30px;
+}
+.red{
+    color: red;
+}
+
+.white{
+    color: white;
+}
+.card{
+    width: 18rem;
+    border-radius: 3px;
+}
+
+img{
+    border-radius: 3px;
+}
+
+.grid{
+    display: flex;
+    align-items: center;
+    height: 25vh;
+    grid-template-columns: auto auto auto auto auto auto;
+    gap: 8px;
+    padding: 10px;
+  }
+
+.dim{
+    width: 14rem;
+  }
+
+  .dirg{
+    display: flex;
+  }
+
+  .icn{
+    padding: 0px 25px;
+  }
