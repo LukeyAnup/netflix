@@ -1,0 +1,67 @@
+body{
+    background-color: #141414;
+    margin: 0px;
+    font-family: Netflix Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.custom-hero{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero{
+    color: white;
+    font-size: 3.5vw;
+    display: flex;
+    justify-content: center;
+}
+
+.default-profile{
+    height: 10vw;
+    width: 10vw;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.profiles{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+
+.profile-text{
+    color: grey;
+    font-size: 22px;
+    text-align: center;
+    margin: auto;
+    padding-top: 10px;
+}
+
+button{
+    border: 1px solid grey;
+    color: gray;
+    padding: .7em 1.5em;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+button:hover{
+    color: white;
+    border: .1em solid white;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+}
+    
+.btn-text{
+    font-size: 20px;
+}
